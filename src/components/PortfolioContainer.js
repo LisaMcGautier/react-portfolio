@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
+import Footer from "../components/Footer/index";
+import Header from "../components/Header/index"
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -17,17 +19,13 @@ class PortfolioContainer extends Component {
     this.setState({ currentPage: page });
   };
 
-
-
   renderPage = () => {
 
     // WRAP the routes in a switch component to avoid rendering multiple paths per route
     // Switch will return the first route that matches
 
     return <Switch>
-
       {/* routes are assigned path and component values */}
-
       {/* BUT links no longer work, so we have to use NavLink in NavTabs */}
 
       <Route exact path="/about" component={About} />
@@ -37,30 +35,32 @@ class PortfolioContainer extends Component {
       <Redirect to="/home" />
 
       {/* default route does NOT specify a path */}
-
       {/* BUT it will render everything, including two routes at once */}
       {/* <Route component={Home} /> */}
-  
-      
+        
     </Switch>
-
   };
 
   render() {
     return (
       <div className="container">
-
         {/* WRAP the entire application in a <Router /> component */}
-
         <Router>
+          <Header />
+
           <NavTabs
             currentPage={this.state.currentPage}
             handlePageChange={this.handlePageChange}
           />
-
           {this.renderPage()}
 
-        </Router>
+          <Footer />
+
+
+
+
+
+        </Router>        
       </div>
     );
   }
