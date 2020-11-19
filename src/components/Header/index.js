@@ -3,7 +3,7 @@ import "./style.css";
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-sm navbar-light bg-warning">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
