@@ -3,14 +3,28 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1></h1>
+      <div className="container">
+        <div className="card">
+          <div className="alert alert-info" role="alert">
+            <h2>About Me</h2>
+          </div>
+        </div>
+
+        <div className="card-body">
+          <div className="row">
+            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+              <img src="https://images.unsplash.com/photo-1570694236386-615cb025956b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" className="rounded float-left m-md-3" alt="Morning Wave" class="img-thumbnail" width="300" height="300" />
+            </div>
+
+            <div className="offset-xl-2 col-xl-8 offset-lg-2 col-lg-7 offset-md-2 col-md-6 col-sm-12">
+              <p className="text-md-center m-sm-3">I am learning to code with University of Miami Coding Bootcamp. My educational background is in theatre. My work experience includes technical theatre (lighting and backstage) and secondary education. For the past decade, I have been teaching high school Theatre and English. I chose to pursue coding bootcamp because I am interested in expanding my skillset and increasing my earning potential.
+              <br></br>
+                <b> The page you are looking at is a work in progress.</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

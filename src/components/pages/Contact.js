@@ -3,18 +3,33 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1></h1>
+      <main class="container">
+        <div class="card">
+          <div class="alert alert-info" role="alert">
+            <h3>Contact</h3>
+          </div>
+
+          <div class="form-group pl-3 pr-3">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Lisa McDonald" />
+          </div>
+          <div class="form-group pl-3 pr-3">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="dlanodcm4517@gmail.com" />
+          </div>
+          <div class="form-group pl-3 pr-3">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <div>
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/lisa-mcdonald-gautier/" role="button">LinkedIn</a>
+            <a class="btn btn-dark" href="https://github.com/LisaMcGautier" role="button">GitHub</a>
+            <a class="btn btn-info" href="mcdonald resume.pdf" role="button">View resume</a>
+          </div>
+
+        </div>
+      </main>
     </div>
   );
 }
