@@ -18,6 +18,8 @@ function About() {
             </div>
 
             <div className="offset-xl-2 col-xl-8 offset-lg-2 col-lg-7 offset-md-2 col-md-6 col-sm-12">
+            <br/>
+            <br/>
               <p> <b>Skills acquired:</b> <em>HTML, CSS, JavaScript, jQuery, Bootstrap, GitHub, Heroku, Materialize, JSON, NodeJS, ExpressJS, AJAX, APIs, MySQL, MongoDb, ReactJS, ... </em> </p>
               <p className="text-md-center m-sm-3">I am learning to code with University of Miami Coding Bootcamp. My educational background is in theatre. My work experience includes technical theatre (lighting and backstage) and secondary education. For the past decade, I have been teaching high school Theatre and English. I chose to pursue coding bootcamp because I am interested in expanding my skillset and increasing my earning potential. <br/> <b> The page you are looking at is a work in progress.</b> </p>
             </div>
