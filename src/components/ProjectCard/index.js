@@ -10,7 +10,7 @@ function Project(props) {
 
                     <img src={props.image} className="card-img-top" alt={props.alt} />
                     <div className="card-body alert-info">
-                        
+
                         <h5 className="card-title">{props.title}</h5>
                         <a className="btn btn-success" href={props.url} role="button">Launch App</a>
 

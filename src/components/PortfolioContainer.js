@@ -29,7 +29,7 @@ class PortfolioContainer extends Component {
       {/* BUT links no longer work, so we have to use NavLink in NavTabs */}
 
       <Route exact path="/about" component={About} />
-      <Route exact path="/blog" component={Blog} />
+      {/* <Route exact path="/blog" component={Blog} /> */}
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/home" component={Home} />
       <Redirect to="/home" />

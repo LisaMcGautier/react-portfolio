@@ -20,6 +20,7 @@ function NavTabs(props) {
           Home
         </NavLink>
       </li>
+
       <li className="nav-item">
         <NavLink to="/about" onClick={() => props.handlePageChange("About")}
 
@@ -28,14 +29,16 @@ function NavTabs(props) {
           About
         </NavLink>
       </li>
-      <li className="nav-item">
+
+      {/* <li className="nav-item">
         <NavLink to="/blog" onClick={() => props.handlePageChange("Blog")}
 
           activeClassName="nav-link active"
           className={"nav-link"}>
           Blog
         </NavLink>
-      </li>
+      </li> */}
+      
       <li className="nav-item">
         <NavLink to="/contact" onClick={() => props.handlePageChange("Contact")}
 
