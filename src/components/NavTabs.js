@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import { NavLink } from "react-router-dom";
 
 function NavTabs(props) {
@@ -30,15 +29,6 @@ function NavTabs(props) {
         </NavLink>
       </li>
 
-      {/* <li className="nav-item">
-        <NavLink to="/blog" onClick={() => props.handlePageChange("Blog")}
-
-          activeClassName="nav-link active"
-          className={"nav-link"}>
-          Blog
-        </NavLink>
-      </li> */}
-      
       <li className="nav-item">
         <NavLink to="/contact" onClick={() => props.handlePageChange("Contact")}
 
@@ -47,13 +37,17 @@ function NavTabs(props) {
           Contact
         </NavLink>
       </li>
+
+      <li className="nav-item">
+        <NavLink to="/resume" onClick={() => props.handlePageChange("Resume")}
+
+          activeClassName="nav-link active"
+          className={"nav-link"}>
+          Resume
+        </NavLink>
+      </li>
     </ul>
   );
 }
-
-//NAMED exports, NOT default.
-
-// export const A = "Something";
-// export const B = "Something else";
 
 export default NavTabs;

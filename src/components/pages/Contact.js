@@ -3,33 +3,35 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <br/>
-      <main className="container">
+      <br />
+      <div className="container">
         <div className="card">
           <div className="alert alert-info" role="alert">
-            <h3>Contact</h3>
+            <h2>Contact</h2>
           </div>
 
           <div className="form-group pl-3 pr-3">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Lisa McDonald" />
+            <label for="exampleFormControlInputName">Name</label>
+            <input type="text" className="form-control" id="exampleFormControlInputName" placeholder="Lisa McDonald" />
           </div>
           <div className="form-group pl-3 pr-3">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="dlanodcm4517@gmail.com" />
+            <label for="exampleFormControlInputEmail">Email address</label>
+            <input type="email" className="form-control" id="exampleFormControlInputEmail" placeholder="dlanodcm4517@gmail.com" />
           </div>
           <div className="form-group pl-3 pr-3">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            <label for="exampleFormControlTextareaMessage">Message</label>
+            <textarea className="form-control" id="exampleFormControlTextareaMessage" rows="5"
+              placeholder="Thank you for visiting my portfolio! Click the links below to open my LinkedIn and Github profiles."></textarea>
           </div>
           <div>
-            <a className="btn btn-primary" href="https://www.linkedin.com/in/lisa-mcdonald-gautier/" role="button">LinkedIn</a>
-            <a className="btn btn-dark m-3" href="https://github.com/LisaMcGautier" role="button">GitHub</a>
-            <a className="btn btn-info" href="mcdonald resume.pdf" role="button">View resume</a>
+
+            <a className="btn btn-primary m-3" href="https://www.linkedin.com/in/lisa-mcdonald-gautier/" target="_blank" rel="noopener noreferrer" role="button">LinkedIn</a>
+            <a className="btn btn-dark" href="https://github.com/LisaMcGautier" target="_blank" rel="noopener noreferrer" role="button">GitHub</a>
+            
           </div>
 
         </div>
-      </main>
+      </div>
     </div>
   );
 }

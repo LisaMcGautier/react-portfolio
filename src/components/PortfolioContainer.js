@@ -5,7 +5,7 @@ import Header from "../components/Header/index"
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
@@ -28,9 +28,9 @@ class PortfolioContainer extends Component {
       {/* routes are assigned path and component values */}
       {/* BUT links no longer work, so we have to use NavLink in NavTabs */}
 
-      <Route exact path="/about" component={About} />
-      {/* <Route exact path="/blog" component={Blog} /> */}
+      <Route exact path="/about" component={About} />      
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/resume" component={Resume} />
       <Route exact path="/home" component={Home} />
       <Redirect to="/home" />
 
