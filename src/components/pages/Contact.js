@@ -25,8 +25,8 @@ function Contact() {
           </div>
           <div>
 
-            <a className="btn btn-primary m-3" href="https://www.linkedin.com/in/lisa-mcdonald-gautier/" target="_blank" rel="noopener noreferrer" role="button">LinkedIn</a>
-            <a className="btn btn-dark" href="https://github.com/LisaMcGautier" target="_blank" rel="noopener noreferrer" role="button">GitHub</a>
+            <a className="btn btn-primary m-3 shadow" href="https://www.linkedin.com/in/lisa-mcdonald-gautier/" target="_blank" rel="noopener noreferrer" role="button">LinkedIn</a>
+            <a className="btn btn-dark shadow" href="https://github.com/LisaMcGautier" target="_blank" rel="noopener noreferrer" role="button">GitHub</a>
             
           </div>
 

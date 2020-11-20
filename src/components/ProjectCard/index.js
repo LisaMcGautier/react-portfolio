@@ -1,5 +1,5 @@
 import React from "react";
-
+// import {screenshot} from "../../assets/screenshots";
 
 function Project(props) {
     return (
@@ -12,7 +12,9 @@ function Project(props) {
                     <div className="card-body alert-info">
 
                         <h5 className="card-title">{props.title}</h5>
-                        <a className="btn btn-success" href={props.url} target="_blank" rel="noopener noreferrer" role="button">Launch App</a>
+                        <a className="btn btn-dark shadow" href={props.github} target="_blank" rel="noopener noreferrer" role="button">Github repo</a>
+                        <a className="btn btn-info m-3 shadow" href={props.deploy} target="_blank" rel="noopener noreferrer" role="button">Deployed app</a>
+                        <a href="/screenshot1.png" target="_blank" rel="noopener noreferrer" role="button">screenshot</a>
 
                         
                     </div>

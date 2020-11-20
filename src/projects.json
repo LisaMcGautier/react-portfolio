@@ -4,39 +4,51 @@
         "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         "alt": "company",
         "title": "Employee Directory",
-        "href": "https://lisamcgautier.github.io/employee_directory/"
+        "github": "https://github.com/LisaMcGautier/employee_directory",
+        "deploy": "https://lisamcgautier.github.io/employee_directory/",
+        "screenshot": "/screenshot1.png"
     },
     {
         "id": 2,
         "image": "https://images.unsplash.com/photo-1521897258701-21e2a01f5e8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         "alt": "coins",
         "title": "Budget Tracker",
-        "href": "https://afternoon-shore-57961.herokuapp.com/"
+        "github": "https://github.com/LisaMcGautier/budgetTracker",
+        "deploy": "https://afternoon-shore-57961.herokuapp.com/",
+        "screenshot": "../../assets/screenshots/screenshot2.png"
     },
     {
         "id": 3,
         "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         "alt": "sneakers",
         "title": "Workout Tracker",
-        "href": "https://mysterious-lowlands-66280.herokuapp.com/"
+        "github": "https://github.com/LisaMcGautier/workoutTracker",
+        "deploy": "https://mysterious-lowlands-66280.herokuapp.com/",
+        "screenshot": "../../assets/screenshots/screenshot3.png"
     },
     {
         "id": 4,
         "image": "https://images.unsplash.com/photo-1518291344630-4857135fb581?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
         "alt": "cooking",
         "title": "What's Cookin'   (Project 2)",
-        "href": "https://infinite-falls-09874.herokuapp.com/"
+        "github": "https://github.com/swatso2020/Project2",
+        "deploy": "https://infinite-falls-09874.herokuapp.com/",
+        "screenshot": "../../assets/screenshots/screenshot4.png"
     },{
         "id": 5,
         "image": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
         "alt": "coffee",
         "title": "Necesito Cafecito   (Project 1)",
-        "href": "https://lisamcgautier.github.io/ourFirstProject"
+        "github": "https://github.com/LisaMcGautier/ourFirstProject",
+        "deploy": "https://lisamcgautier.github.io/ourFirstProject",
+        "screenshot": "../../assets/screenshots/screenshot5.png"
     },{
         "id": 6,
         "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
         "alt": "burger",
         "title": "Eat-da-Burger",
-        "href": "https://shrouded-river-48289.herokuapp.com/"
+        "github": "https://github.com/LisaMcGautier/burger",
+        "deploy": "https://shrouded-river-48289.herokuapp.com/",
+        "screenshot": "../../assets/screenshots/screenshot6.png"
     }
 ]

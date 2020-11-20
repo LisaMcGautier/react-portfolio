@@ -8,7 +8,7 @@ function Home() {
       <br />
       <h1>Projects</h1>
 
-      {projects.map((project) => <ProjectCard key={project.id} image={project.image} alt={project.alt} title={project.title} href={project.href} />)}
+      {projects.map((project) => <ProjectCard key={project.id} image={project.image} alt={project.alt} title={project.title} github={project.github} deploy={project.deploy} screenshot={project.screenshot} />)}
 
     </div>
 

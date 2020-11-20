@@ -9,9 +9,6 @@ function Footer() {
       </div>
     </footer>
 
-    // <footer className="footer">
-    //   <span>UM Coding Bootcamp 2020</span>
-    // </footer>
   );
 }
 

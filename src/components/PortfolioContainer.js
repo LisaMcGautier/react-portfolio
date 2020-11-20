@@ -46,6 +46,7 @@ class PortfolioContainer extends Component {
       <div className="container">
         {/* WRAP the entire application in a <Router /> component */}
         <Router>
+
           <Header />
 
           <NavTabs
@@ -55,10 +56,6 @@ class PortfolioContainer extends Component {
           {this.renderPage()}
 
           <Footer />
-
-
-
-
 
         </Router>        
       </div>
