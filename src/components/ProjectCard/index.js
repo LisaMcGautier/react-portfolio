@@ -3,7 +3,8 @@ import React from "react";
 function Project(props) {
     return (
 
-        <div className="row row-cols-1 row-cols-md-2">
+        // <div className="row row-cols-1 row-cols-md-2">
+
             <div className="col mb-4">
                 <div className="card">
 
@@ -18,7 +19,7 @@ function Project(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 
