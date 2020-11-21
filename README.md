@@ -9,6 +9,14 @@ Projects I have worked on in Coding Bootcamp.
 https://lisamcgautier.github.io/home
 
 ## Screenshots
+Home:
+![Screenshot (153)](https://user-images.githubusercontent.com/62854999/99862473-df206480-2b67-11eb-8d47-d05fa30c04f4.png)
+About:
+![Screenshot (154)](https://user-images.githubusercontent.com/62854999/99862475-e0519180-2b67-11eb-89d9-ad7b2c65e964.png)
+Contact:
+![Screenshot (155)](https://user-images.githubusercontent.com/62854999/99862476-e0519180-2b67-11eb-8419-066c731410a6.png)
+Resume:
+![Screenshot (156)](https://user-images.githubusercontent.com/62854999/99862477-e0ea2800-2b67-11eb-8e8d-c82c6925ee16.png)
 
 ## Table of Contents
 
