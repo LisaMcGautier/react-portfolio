@@ -6,7 +6,7 @@ No license selected
 Projects I have worked on in Coding Bootcamp.
 
 ## Deployed App
-https://lisamcgautier.github.io/home
+https://lisamcgautier.github.io/react-portfolio/
 
 ## Screenshots
 Home:
